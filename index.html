@@ -8,7 +8,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/nylalogo.png">
+    <link rel="icon" type="image/png" href="img/nylalogo2.png">
 
 
     <!-- Google Web Fonts -->
@@ -275,7 +275,7 @@ h1 {
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light border-bottom border-2 border-white">
                 <a href="index.html" class="navbar-brand">
-                      <img src="img/nylalogo.png" alt="Nyla Future Logo" width="140" height="70">
+                      <img src="img/nylalogo2.png" alt="Nyla Future Logo" width="140" height="70">
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -317,7 +317,7 @@ h1 {
                     <h5 class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slideInRight" style="color: #808285;">
                         Make your space a reflection of your <span style="color: #f3eee2;">Style</span></h5>
                 </div>
-                <div class="col-lg-6" style="background-color:#808285;">
+                <div class="col-lg-6" style="background-color:#808285;padding-right:10px;">
                     <div class="owl-carousel header-carousel animated fadeIn">
                       <img src="img/imass.jpeg" alt="" style="width:300px; height:200px; object-fit:cover;">
                       <img src="img/imass1.png" alt="" style="width:300px; height:200px; object-fit:cover;">
@@ -1252,7 +1252,10 @@ h1 {
           <!-- Brand -->
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
               <a href="index.html" class="d-inline-block mb-3 text-decoration-none">
-                  <h1 class="text-white">Nyla</h1>
+                  <h1 class="text-white">
+                    <img src="img/nylalogo2.png" alt="Nyla Future Logo" width="140" height="70">
+
+                  </h1>
               </a>
               <p class="mb-0 text-white">We are a team of interior designers</p>
           </div>
@@ -1565,6 +1568,33 @@ h1 {
           }
         </script>
     <!------>
+
+
+    <!-- disable-protection.js -->
+  <!-- Written by Muhammad Adnan from Widetifly -->
+
+  <script>
+  // Prevent right-click context menu
+  document.addEventListener("contextmenu", function (event) {
+    event.preventDefault();
+  });
+  
+  // Block common keyboard shortcuts used to open developer tools
+  document.addEventListener("keydown", function (event) {
+    const key = event.key;
+    const ctrl = event.ctrlKey;
+    const shift = event.shiftKey;
+  
+    const isDevToolShortcut =
+      key === "F12" ||
+      (ctrl && shift && ["I", "J", "C"].includes(key)) ||
+      (ctrl && key === "U");
+  
+    if (isDevToolShortcut) {
+      event.preventDefault();
+    }
+  });
+  </script>
 
 
     

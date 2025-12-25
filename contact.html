@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/nylalogo.png">
+    <link rel="icon" type="image/png" href="img/nylalogo2.png">
 
 
     <!-- Google Web Fonts -->
@@ -69,7 +69,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light border-bottom border-2 border-white">
                 <a href="index.html" class="navbar-brand">
-                   <img src="img/nylalogo.png" alt="Nyla Future Logo" width="140" height="70">
+                   <img src="img/nylalogo2.png" alt="Nyla Future Logo" width="140" height="70">
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -136,7 +136,7 @@
                         Let Nyla Interior Designer turn it into reality.</p>
                     <div class="wow fadeIn" data-wow-delay="0.3s">
                         <form id="whatsappForm">
-                            <div class="row g-3">
+                            <div class="row g-3 text-secondary">
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name" required>
@@ -230,7 +230,10 @@
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <a href="index.html" class="d-inline-block mb-3">
-                        <h1 class="text-white">Nyla Future</h1>
+                        <h1 class="text-white">
+                            <img src="img/nylalogo2.png" alt="Nyla Future Logo" width="140" height="70">
+
+                        </h1>
                     </a>
                     <p class="mb-0">we are a team of interior designers</p>
                 </div>
@@ -303,6 +306,33 @@
 
 
     <!-- JavaScript Libraries -->
+
+    <!-- disable-protection.js -->
+    <!-- Written by Muhammad Adnan from Widetifly -->
+
+    <script>
+    // Prevent right-click context menu
+    document.addEventListener("contextmenu", function (event) {
+      event.preventDefault();
+    });
+    
+    // Block common keyboard shortcuts used to open developer tools
+    document.addEventListener("keydown", function (event) {
+      const key = event.key;
+      const ctrl = event.ctrlKey;
+      const shift = event.shiftKey;
+    
+      const isDevToolShortcut =
+        key === "F12" ||
+        (ctrl && shift && ["I", "J", "C"].includes(key)) ||
+        (ctrl && key === "U");
+    
+      if (isDevToolShortcut) {
+        event.preventDefault();
+      }
+    });
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
